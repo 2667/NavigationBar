@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19383949E428B6862EBC976D /* libPods-ZTCustomNavigationBarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFB81EF88461DD8B9055D44 /* libPods-ZTCustomNavigationBarUITests.a */; };
+		2D49A1497389548ADF6284AD /* libPods-ZTCustomNavigationBarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41041E8BCD502B76A296CF8E /* libPods-ZTCustomNavigationBarTests.a */; };
+		47D7F2BA1F25833F0089968F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2B91F25833F0089968F /* main.m */; };
+		47D7F2BD1F25833F0089968F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2BC1F25833F0089968F /* AppDelegate.m */; };
+		47D7F2C01F25833F0089968F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2BF1F25833F0089968F /* ViewController.m */; };
+		47D7F2C31F25833F0089968F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D7F2C11F25833F0089968F /* Main.storyboard */; };
+		47D7F2C51F25833F0089968F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D7F2C41F25833F0089968F /* Assets.xcassets */; };
+		47D7F2C81F25833F0089968F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D7F2C61F25833F0089968F /* LaunchScreen.storyboard */; };
+		47D7F2D31F25833F0089968F /* ZTCustomNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2D21F25833F0089968F /* ZTCustomNavigationBarTests.m */; };
+		47D7F2DE1F25833F0089968F /* ZTCustomNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2DD1F25833F0089968F /* ZTCustomNavigationBarUITests.m */; };
+		47D7F2ED1F2583C60089968F /* ZTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2EC1F2583C60089968F /* ZTNavigationBar.m */; };
+		47D7F2FC1F259B950089968F /* NormalListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2FB1F259B950089968F /* NormalListController.m */; };
+		47D7F2FF1F259BCA0089968F /* QQAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F2FE1F259BCA0089968F /* QQAppController.m */; };
+		47D7F3021F259BDC0089968F /* QQZoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3011F259BDC0089968F /* QQZoneController.m */; };
+		47D7F3051F259BEA0089968F /* WeiBoMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3041F259BEA0089968F /* WeiBoMineController.m */; };
+		47D7F3081F259BFD0089968F /* ZhiHuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3071F259BFD0089968F /* ZhiHuController.m */; };
+		47D7F30B1F259C100089968F /* QQMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F30A1F259C100089968F /* QQMineController.m */; };
+		47D7F30E1F259C240089968F /* AntForestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F30D1F259C240089968F /* AntForestController.m */; };
+		47D7F3111F259DD20089968F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3101F259DD20089968F /* BaseNavigationController.m */; };
+		47D7F3141F259ECB0089968F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3131F259ECB0089968F /* BaseViewController.m */; };
+		47D7F3171F259FBC0089968F /* CustomListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3161F259FBC0089968F /* CustomListController.m */; };
+		47D7F31A1F259FD10089968F /* CustomNavBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3191F259FD10089968F /* CustomNavBarController.m */; };
+		47D7F31D1F259FE30089968F /* ImageNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F31C1F259FE30089968F /* ImageNavController.m */; };
+		47D7F3201F259FF40089968F /* MillcolorGradController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F31F1F259FF40089968F /* MillcolorGradController.m */; };
+		47D7F3231F25A0210089968F /* MoveListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3221F25A0210089968F /* MoveListController.m */; };
+		47D7F3261F25A0310089968F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3251F25A0310089968F /* SecondViewController.m */; };
+		47D7F3291F25A0470089968F /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D7F3281F25A0470089968F /* SixthViewController.m */; };
+		B7C83ABF3FAA14E93D6E0287 /* libPods-ZTCustomNavigationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7CE9CF27A98CE9ED8DC479 /* libPods-ZTCustomNavigationBar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D7F2CF1F25833F0089968F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D7F2AD1F25833F0089968F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D7F2B41F25833F0089968F;
+			remoteInfo = ZTCustomNavigationBar;
+		};
+		47D7F2DA1F25833F0089968F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D7F2AD1F25833F0089968F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D7F2B41F25833F0089968F;
+			remoteInfo = ZTCustomNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFC40B9C0DB8A1CA6362BD9 /* Pods-ZTCustomNavigationBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCustomNavigationBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZTCustomNavigationBarTests/Pods-ZTCustomNavigationBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41041E8BCD502B76A296CF8E /* libPods-ZTCustomNavigationBarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZTCustomNavigationBarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D7F2B51F25833F0089968F /* ZTCustomNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTCustomNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D7F2B91F25833F0089968F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47D7F2BB1F25833F0089968F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47D7F2BC1F25833F0089968F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47D7F2BE1F25833F0089968F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47D7F2BF1F25833F0089968F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47D7F2C21F25833F0089968F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D7F2C41F25833F0089968F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47D7F2C71F25833F0089968F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47D7F2C91F25833F0089968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D7F2CE1F25833F0089968F /* ZTCustomNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTCustomNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D7F2D21F25833F0089968F /* ZTCustomNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTCustomNavigationBarTests.m; sourceTree = "<group>"; };
+		47D7F2D41F25833F0089968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D7F2D91F25833F0089968F /* ZTCustomNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTCustomNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D7F2DD1F25833F0089968F /* ZTCustomNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTCustomNavigationBarUITests.m; sourceTree = "<group>"; };
+		47D7F2DF1F25833F0089968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D7F2EB1F2583C60089968F /* ZTNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNavigationBar.h; sourceTree = "<group>"; };
+		47D7F2EC1F2583C60089968F /* ZTNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNavigationBar.m; sourceTree = "<group>"; };
+		47D7F2FA1F259B950089968F /* NormalListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalListController.h; sourceTree = "<group>"; };
+		47D7F2FB1F259B950089968F /* NormalListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalListController.m; sourceTree = "<group>"; };
+		47D7F2FD1F259BCA0089968F /* QQAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQAppController.h; sourceTree = "<group>"; };
+		47D7F2FE1F259BCA0089968F /* QQAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQAppController.m; sourceTree = "<group>"; };
+		47D7F3001F259BDC0089968F /* QQZoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQZoneController.h; sourceTree = "<group>"; };
+		47D7F3011F259BDC0089968F /* QQZoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQZoneController.m; sourceTree = "<group>"; };
+		47D7F3031F259BEA0089968F /* WeiBoMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoMineController.h; sourceTree = "<group>"; };
+		47D7F3041F259BEA0089968F /* WeiBoMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoMineController.m; sourceTree = "<group>"; };
+		47D7F3061F259BFD0089968F /* ZhiHuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhiHuController.h; sourceTree = "<group>"; };
+		47D7F3071F259BFD0089968F /* ZhiHuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhiHuController.m; sourceTree = "<group>"; };
+		47D7F3091F259C100089968F /* QQMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQMineController.h; sourceTree = "<group>"; };
+		47D7F30A1F259C100089968F /* QQMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQMineController.m; sourceTree = "<group>"; };
+		47D7F30C1F259C240089968F /* AntForestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntForestController.h; sourceTree = "<group>"; };
+		47D7F30D1F259C240089968F /* AntForestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntForestController.m; sourceTree = "<group>"; };
+		47D7F30F1F259DD20089968F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		47D7F3101F259DD20089968F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		47D7F3121F259ECB0089968F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		47D7F3131F259ECB0089968F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		47D7F3151F259FBC0089968F /* CustomListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomListController.h; sourceTree = "<group>"; };
+		47D7F3161F259FBC0089968F /* CustomListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomListController.m; sourceTree = "<group>"; };
+		47D7F3181F259FD10089968F /* CustomNavBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBarController.h; sourceTree = "<group>"; };
+		47D7F3191F259FD10089968F /* CustomNavBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBarController.m; sourceTree = "<group>"; };
+		47D7F31B1F259FE30089968F /* ImageNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageNavController.h; sourceTree = "<group>"; };
+		47D7F31C1F259FE30089968F /* ImageNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageNavController.m; sourceTree = "<group>"; };
+		47D7F31E1F259FF40089968F /* MillcolorGradController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MillcolorGradController.h; sourceTree = "<group>"; };
+		47D7F31F1F259FF40089968F /* MillcolorGradController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MillcolorGradController.m; sourceTree = "<group>"; };
+		47D7F3211F25A0210089968F /* MoveListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveListController.h; sourceTree = "<group>"; };
+		47D7F3221F25A0210089968F /* MoveListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveListController.m; sourceTree = "<group>"; };
+		47D7F3241F25A0310089968F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		47D7F3251F25A0310089968F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		47D7F3271F25A0470089968F /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		47D7F3281F25A0470089968F /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		4FFB81EF88461DD8B9055D44 /* libPods-ZTCustomNavigationBarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZTCustomNavigationBarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DE6B64F887ED9F6E03A211 /* Pods-ZTCustomNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCustomNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZTCustomNavigationBar/Pods-ZTCustomNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		7F7CE9CF27A98CE9ED8DC479 /* libPods-ZTCustomNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZTCustomNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DA89B7503C3D9762B83980 /* Pods-ZTCustomNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCustomNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZTCustomNavigationBar/Pods-ZTCustomNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D254061EB5E7BF2A0C7326 /* Pods-ZTCustomNavigationBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCustomNavigationBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZTCustomNavigationBarTests/Pods-ZTCustomNavigationBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC899DF6E0575686664BC4CD /* Pods-ZTCustomNavigationBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCustomNavigationBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZTCustomNavigationBarUITests/Pods-ZTCustomNavigationBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF1861CA69C94912A5D25555 /* Pods-ZTCustomNavigationBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCustomNavigationBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZTCustomNavigationBarUITests/Pods-ZTCustomNavigationBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D7F2B21F25833F0089968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C83ABF3FAA14E93D6E0287 /* libPods-ZTCustomNavigationBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D7F2CB1F25833F0089968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D49A1497389548ADF6284AD /* libPods-ZTCustomNavigationBarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D7F2D61F25833F0089968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19383949E428B6862EBC976D /* libPods-ZTCustomNavigationBarUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D7F2AC1F25833F0089968F = {
+			isa = PBXGroup;
+			children = (
+				47D7F2B71F25833F0089968F /* ZTCustomNavigationBar */,
+				47D7F2D11F25833F0089968F /* ZTCustomNavigationBarTests */,
+				47D7F2DC1F25833F0089968F /* ZTCustomNavigationBarUITests */,
+				47D7F2B61F25833F0089968F /* Products */,
+				EFC2B6C07C1FE155193CF362 /* Pods */,
+				F05EA249125C5BBFD6A0313A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47D7F2B61F25833F0089968F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F2B51F25833F0089968F /* ZTCustomNavigationBar.app */,
+				47D7F2CE1F25833F0089968F /* ZTCustomNavigationBarTests.xctest */,
+				47D7F2D91F25833F0089968F /* ZTCustomNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D7F2B71F25833F0089968F /* ZTCustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F2EE1F25965B0089968F /* 普通导航 */,
+				47D7F2EF1F25966E0089968F /* 自定义导航 */,
+				47D7F2F31F2596A00089968F /* 移动导航 */,
+				47D7F2EB1F2583C60089968F /* ZTNavigationBar.h */,
+				47D7F2EC1F2583C60089968F /* ZTNavigationBar.m */,
+				47D7F2BB1F25833F0089968F /* AppDelegate.h */,
+				47D7F2BC1F25833F0089968F /* AppDelegate.m */,
+				47D7F2BE1F25833F0089968F /* ViewController.h */,
+				47D7F2BF1F25833F0089968F /* ViewController.m */,
+				47D7F2C11F25833F0089968F /* Main.storyboard */,
+				47D7F2C41F25833F0089968F /* Assets.xcassets */,
+				47D7F2C61F25833F0089968F /* LaunchScreen.storyboard */,
+				47D7F2C91F25833F0089968F /* Info.plist */,
+				47D7F2B81F25833F0089968F /* Supporting Files */,
+				47D7F30F1F259DD20089968F /* BaseNavigationController.h */,
+				47D7F3101F259DD20089968F /* BaseNavigationController.m */,
+			);
+			path = ZTCustomNavigationBar;
+			sourceTree = "<group>";
+		};
+		47D7F2B81F25833F0089968F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F2B91F25833F0089968F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47D7F2D11F25833F0089968F /* ZTCustomNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F2D21F25833F0089968F /* ZTCustomNavigationBarTests.m */,
+				47D7F2D41F25833F0089968F /* Info.plist */,
+			);
+			path = ZTCustomNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		47D7F2DC1F25833F0089968F /* ZTCustomNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F2DD1F25833F0089968F /* ZTCustomNavigationBarUITests.m */,
+				47D7F2DF1F25833F0089968F /* Info.plist */,
+			);
+			path = ZTCustomNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		47D7F2EE1F25965B0089968F /* 普通导航 */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F2FA1F259B950089968F /* NormalListController.h */,
+				47D7F2FB1F259B950089968F /* NormalListController.m */,
+				47D7F2FD1F259BCA0089968F /* QQAppController.h */,
+				47D7F2FE1F259BCA0089968F /* QQAppController.m */,
+				47D7F3001F259BDC0089968F /* QQZoneController.h */,
+				47D7F3011F259BDC0089968F /* QQZoneController.m */,
+				47D7F3031F259BEA0089968F /* WeiBoMineController.h */,
+				47D7F3041F259BEA0089968F /* WeiBoMineController.m */,
+				47D7F3061F259BFD0089968F /* ZhiHuController.h */,
+				47D7F3071F259BFD0089968F /* ZhiHuController.m */,
+				47D7F3091F259C100089968F /* QQMineController.h */,
+				47D7F30A1F259C100089968F /* QQMineController.m */,
+				47D7F30C1F259C240089968F /* AntForestController.h */,
+				47D7F30D1F259C240089968F /* AntForestController.m */,
+			);
+			name = "普通导航";
+			sourceTree = "<group>";
+		};
+		47D7F2EF1F25966E0089968F /* 自定义导航 */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F3121F259ECB0089968F /* BaseViewController.h */,
+				47D7F3131F259ECB0089968F /* BaseViewController.m */,
+				47D7F3151F259FBC0089968F /* CustomListController.h */,
+				47D7F3161F259FBC0089968F /* CustomListController.m */,
+				47D7F3181F259FD10089968F /* CustomNavBarController.h */,
+				47D7F3191F259FD10089968F /* CustomNavBarController.m */,
+				47D7F31B1F259FE30089968F /* ImageNavController.h */,
+				47D7F31C1F259FE30089968F /* ImageNavController.m */,
+				47D7F31E1F259FF40089968F /* MillcolorGradController.h */,
+				47D7F31F1F259FF40089968F /* MillcolorGradController.m */,
+			);
+			name = "自定义导航";
+			sourceTree = "<group>";
+		};
+		47D7F2F31F2596A00089968F /* 移动导航 */ = {
+			isa = PBXGroup;
+			children = (
+				47D7F3211F25A0210089968F /* MoveListController.h */,
+				47D7F3221F25A0210089968F /* MoveListController.m */,
+				47D7F3241F25A0310089968F /* SecondViewController.h */,
+				47D7F3251F25A0310089968F /* SecondViewController.m */,
+				47D7F3271F25A0470089968F /* SixthViewController.h */,
+				47D7F3281F25A0470089968F /* SixthViewController.m */,
+			);
+			name = "移动导航";
+			sourceTree = "<group>";
+		};
+		EFC2B6C07C1FE155193CF362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99DA89B7503C3D9762B83980 /* Pods-ZTCustomNavigationBar.debug.xcconfig */,
+				59DE6B64F887ED9F6E03A211 /* Pods-ZTCustomNavigationBar.release.xcconfig */,
+				1FFC40B9C0DB8A1CA6362BD9 /* Pods-ZTCustomNavigationBarTests.debug.xcconfig */,
+				D9D254061EB5E7BF2A0C7326 /* Pods-ZTCustomNavigationBarTests.release.xcconfig */,
+				FF1861CA69C94912A5D25555 /* Pods-ZTCustomNavigationBarUITests.debug.xcconfig */,
+				EC899DF6E0575686664BC4CD /* Pods-ZTCustomNavigationBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F05EA249125C5BBFD6A0313A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F7CE9CF27A98CE9ED8DC479 /* libPods-ZTCustomNavigationBar.a */,
+				41041E8BCD502B76A296CF8E /* libPods-ZTCustomNavigationBarTests.a */,
+				4FFB81EF88461DD8B9055D44 /* libPods-ZTCustomNavigationBarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D7F2B41F25833F0089968F /* ZTCustomNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D7F2E21F25833F0089968F /* Build configuration list for PBXNativeTarget "ZTCustomNavigationBar" */;
+			buildPhases = (
+				81077FC8D01AA9B36C3596F1 /* [CP] Check Pods Manifest.lock */,
+				47D7F2B11F25833F0089968F /* Sources */,
+				47D7F2B21F25833F0089968F /* Frameworks */,
+				47D7F2B31F25833F0089968F /* Resources */,
+				AD8F2A140F8F61048A9C2FEA /* [CP] Embed Pods Frameworks */,
+				229D57F8C2992D113AB511E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTCustomNavigationBar;
+			productName = ZTCustomNavigationBar;
+			productReference = 47D7F2B51F25833F0089968F /* ZTCustomNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D7F2CD1F25833F0089968F /* ZTCustomNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D7F2E51F25833F0089968F /* Build configuration list for PBXNativeTarget "ZTCustomNavigationBarTests" */;
+			buildPhases = (
+				85B495D6BE93D90318796163 /* [CP] Check Pods Manifest.lock */,
+				47D7F2CA1F25833F0089968F /* Sources */,
+				47D7F2CB1F25833F0089968F /* Frameworks */,
+				47D7F2CC1F25833F0089968F /* Resources */,
+				5D5CF168E71B9C75ACA92894 /* [CP] Embed Pods Frameworks */,
+				15861F91CD63B5166738D8AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D7F2D01F25833F0089968F /* PBXTargetDependency */,
+			);
+			name = ZTCustomNavigationBarTests;
+			productName = ZTCustomNavigationBarTests;
+			productReference = 47D7F2CE1F25833F0089968F /* ZTCustomNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47D7F2D81F25833F0089968F /* ZTCustomNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D7F2E81F25833F0089968F /* Build configuration list for PBXNativeTarget "ZTCustomNavigationBarUITests" */;
+			buildPhases = (
+				08B4A3854E75E3581A3F57D6 /* [CP] Check Pods Manifest.lock */,
+				47D7F2D51F25833F0089968F /* Sources */,
+				47D7F2D61F25833F0089968F /* Frameworks */,
+				47D7F2D71F25833F0089968F /* Resources */,
+				B0E3F81794BF1F8AF5CFC16E /* [CP] Embed Pods Frameworks */,
+				6B4A35EF6C81394C34B02730 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D7F2DB1F25833F0089968F /* PBXTargetDependency */,
+			);
+			name = ZTCustomNavigationBarUITests;
+			productName = ZTCustomNavigationBarUITests;
+			productReference = 47D7F2D91F25833F0089968F /* ZTCustomNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D7F2AD1F25833F0089968F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "荣 li";
+				TargetAttributes = {
+					47D7F2B41F25833F0089968F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					47D7F2CD1F25833F0089968F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47D7F2B41F25833F0089968F;
+					};
+					47D7F2D81F25833F0089968F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47D7F2B41F25833F0089968F;
+					};
+				};
+			};
+			buildConfigurationList = 47D7F2B01F25833F0089968F /* Build configuration list for PBXProject "ZTCustomNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D7F2AC1F25833F0089968F;
+			productRefGroup = 47D7F2B61F25833F0089968F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D7F2B41F25833F0089968F /* ZTCustomNavigationBar */,
+				47D7F2CD1F25833F0089968F /* ZTCustomNavigationBarTests */,
+				47D7F2D81F25833F0089968F /* ZTCustomNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D7F2B31F25833F0089968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7F2C81F25833F0089968F /* LaunchScreen.storyboard in Resources */,
+				47D7F2C51F25833F0089968F /* Assets.xcassets in Resources */,
+				47D7F2C31F25833F0089968F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D7F2CC1F25833F0089968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D7F2D71F25833F0089968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B4A3854E75E3581A3F57D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15861F91CD63B5166738D8AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTCustomNavigationBarTests/Pods-ZTCustomNavigationBarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		229D57F8C2992D113AB511E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTCustomNavigationBar/Pods-ZTCustomNavigationBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5CF168E71B9C75ACA92894 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTCustomNavigationBarTests/Pods-ZTCustomNavigationBarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4A35EF6C81394C34B02730 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTCustomNavigationBarUITests/Pods-ZTCustomNavigationBarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81077FC8D01AA9B36C3596F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85B495D6BE93D90318796163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8F2A140F8F61048A9C2FEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTCustomNavigationBar/Pods-ZTCustomNavigationBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E3F81794BF1F8AF5CFC16E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTCustomNavigationBarUITests/Pods-ZTCustomNavigationBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D7F2B11F25833F0089968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7F2FC1F259B950089968F /* NormalListController.m in Sources */,
+				47D7F3051F259BEA0089968F /* WeiBoMineController.m in Sources */,
+				47D7F30E1F259C240089968F /* AntForestController.m in Sources */,
+				47D7F2C01F25833F0089968F /* ViewController.m in Sources */,
+				47D7F2BD1F25833F0089968F /* AppDelegate.m in Sources */,
+				47D7F3111F259DD20089968F /* BaseNavigationController.m in Sources */,
+				47D7F3231F25A0210089968F /* MoveListController.m in Sources */,
+				47D7F2BA1F25833F0089968F /* main.m in Sources */,
+				47D7F30B1F259C100089968F /* QQMineController.m in Sources */,
+				47D7F31A1F259FD10089968F /* CustomNavBarController.m in Sources */,
+				47D7F3081F259BFD0089968F /* ZhiHuController.m in Sources */,
+				47D7F3141F259ECB0089968F /* BaseViewController.m in Sources */,
+				47D7F31D1F259FE30089968F /* ImageNavController.m in Sources */,
+				47D7F3171F259FBC0089968F /* CustomListController.m in Sources */,
+				47D7F2FF1F259BCA0089968F /* QQAppController.m in Sources */,
+				47D7F3261F25A0310089968F /* SecondViewController.m in Sources */,
+				47D7F2ED1F2583C60089968F /* ZTNavigationBar.m in Sources */,
+				47D7F3021F259BDC0089968F /* QQZoneController.m in Sources */,
+				47D7F3201F259FF40089968F /* MillcolorGradController.m in Sources */,
+				47D7F3291F25A0470089968F /* SixthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D7F2CA1F25833F0089968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7F2D31F25833F0089968F /* ZTCustomNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D7F2D51F25833F0089968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7F2DE1F25833F0089968F /* ZTCustomNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D7F2D01F25833F0089968F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D7F2B41F25833F0089968F /* ZTCustomNavigationBar */;
+			targetProxy = 47D7F2CF1F25833F0089968F /* PBXContainerItemProxy */;
+		};
+		47D7F2DB1F25833F0089968F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D7F2B41F25833F0089968F /* ZTCustomNavigationBar */;
+			targetProxy = 47D7F2DA1F25833F0089968F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D7F2C11F25833F0089968F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D7F2C21F25833F0089968F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47D7F2C61F25833F0089968F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D7F2C71F25833F0089968F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D7F2E01F25833F0089968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47D7F2E11F25833F0089968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D7F2E31F25833F0089968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DA89B7503C3D9762B83980 /* Pods-ZTCustomNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZTCustomNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongli.ZTCustomNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47D7F2E41F25833F0089968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DE6B64F887ED9F6E03A211 /* Pods-ZTCustomNavigationBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZTCustomNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongli.ZTCustomNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47D7F2E61F25833F0089968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFC40B9C0DB8A1CA6362BD9 /* Pods-ZTCustomNavigationBarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZTCustomNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongli.ZTCustomNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTCustomNavigationBar.app/ZTCustomNavigationBar";
+			};
+			name = Debug;
+		};
+		47D7F2E71F25833F0089968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D254061EB5E7BF2A0C7326 /* Pods-ZTCustomNavigationBarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZTCustomNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongli.ZTCustomNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTCustomNavigationBar.app/ZTCustomNavigationBar";
+			};
+			name = Release;
+		};
+		47D7F2E91F25833F0089968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1861CA69C94912A5D25555 /* Pods-ZTCustomNavigationBarUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZTCustomNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongli.ZTCustomNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZTCustomNavigationBar;
+			};
+			name = Debug;
+		};
+		47D7F2EA1F25833F0089968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC899DF6E0575686664BC4CD /* Pods-ZTCustomNavigationBarUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZTCustomNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongli.ZTCustomNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZTCustomNavigationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D7F2B01F25833F0089968F /* Build configuration list for PBXProject "ZTCustomNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D7F2E01F25833F0089968F /* Debug */,
+				47D7F2E11F25833F0089968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D7F2E21F25833F0089968F /* Build configuration list for PBXNativeTarget "ZTCustomNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D7F2E31F25833F0089968F /* Debug */,
+				47D7F2E41F25833F0089968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47D7F2E51F25833F0089968F /* Build configuration list for PBXNativeTarget "ZTCustomNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D7F2E61F25833F0089968F /* Debug */,
+				47D7F2E71F25833F0089968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47D7F2E81F25833F0089968F /* Build configuration list for PBXNativeTarget "ZTCustomNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D7F2E91F25833F0089968F /* Debug */,
+				47D7F2EA1F25833F0089968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D7F2AD1F25833F0089968F /* Project object */;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ZTCustomNavigationBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZTCustomNavigationBarTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZTCustomNavigationBarUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDCycleScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>26936111C2EDB4A08A39081E29EB2CFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34C7C87C8DA9A3E5A4358EA7326FB888</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>426B3111ABE71DA33649C5278DF59805</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90C4077013EF2ECFB4E29871084ECB15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F872248591FA12429D87B6CCBCA6B71D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
